@@ -1,0 +1,109 @@
+  /* کدهای CSS قبلی */
+  body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #ff6b6b, #f0f0f0);
+  }
+
+  .container {
+      text-align: center;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
+      width: 100%;
+  }
+
+  h1 {
+      font-size: 24px;
+      color: #444;
+      margin-bottom: 20px;
+  }
+
+  .btn_Wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 5px;
+  }
+
+  button {
+      background-color: #ff6b6b;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 50%;
+  }
+
+  .btn_disabled {
+      background-color: rgba(146, 146, 146, 0.729);
+  }
+
+  .btn_disabled:hover {
+      background-color: rgba(146, 146, 146, 0.729);
+
+  }
+
+  .again {
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .again_hide {
+      opacity: 0;
+      visibility: hidden;
+  }
+
+  button:hover {
+      background-color: #ff4b4b;
+  }
+
+  .dice-box {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+  }
+
+  .dice {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #ff6b6b;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+  }
+
+  .dice.even {
+      background-color: #4caf50;
+      /* رنگ سبز برای جفت */
+  }
+
+  .message {
+      font-size: 18px;
+      font-weight: bold;
+      color: #4caf50;
+      margin-top: 15px;
+      display: block;
+      /* در ابتدا پنهان است */
+  }
+
+
+  .message_hide {
+      display: none;
+  }
